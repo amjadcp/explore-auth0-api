@@ -1,0 +1,29 @@
+{
+  "name": "explore-auth0-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amjadcp/explore-auth0-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amjadcp/explore-auth0-api/issues"
+  },
+  "homepage": "https://github.com/amjadcp/explore-auth0-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "jwks-rsa": "^2.1.4",
+    "nodemon": "^2.0.18"
+  }
+}
